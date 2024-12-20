@@ -12,8 +12,9 @@ setup(
         'pandas',
         'numpy',
         'scikit-learn',
-        'nltk'  # for text analysis
+        'nltk'
     ],
+
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
@@ -24,5 +25,6 @@ setup(
         'Topic :: Software Development :: Libraries',
         'Topic :: Scientific/Engineering :: Artificial Intelligence'
     ],
+    
     python_requires='>=3.6',
 ) 
